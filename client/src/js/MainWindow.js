@@ -47,10 +47,10 @@ function MainWindow({ startCall, clientId }) {
             onClick={callWithVideo(false)}
           />
             <br>
-           <form action="#" method="post">
-	          <p>Name: <input type="email" name="mail"></p>
-	          <p><input type="submit" value="submit"></p>
-            </form>
+//            <form action="#" method="post">
+// 	          <p>Name: <input type="email" name="mail"></p>
+// 	          <p><input type="submit" value="submit"></p>
+//             </form>
           
         </div>
       </div>
