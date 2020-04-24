@@ -16,16 +16,16 @@ function MainWindow({ startCall, clientId }) {
   return (
     <div className="container main-window">
       <div>
-      <h1>Start online consultation</h1>
+    <h1>Start online consultation</h1>
         <h3>
           Hi, your ID is
-          <input
+        <input
             type="text"
             className="txt-clientId"
             defaultValue={clientId}
-            readOnly
           />
         </h3>
+        
       </div>
       <div>
         <input
@@ -46,12 +46,6 @@ function MainWindow({ startCall, clientId }) {
             className="btn-action fa fa-phone"
             onClick={callWithVideo(false)}
           />
-            <br>
-//            <form action="#" method="post">
-// 	          <p>Name: <input type="email" name="mail"></p>
-// 	          <p><input type="submit" value="submit"></p>
-//             </form>
-          
         </div>
       </div>
     </div>
