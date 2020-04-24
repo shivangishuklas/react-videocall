@@ -26,7 +26,6 @@ function MainWindow({ startCall, clientId }) {
             readOnly
           />
         </h3>
-        //<h4>Get started by calling a friend below</h4>
       </div>
       <div>
         <input
@@ -47,6 +46,12 @@ function MainWindow({ startCall, clientId }) {
             className="btn-action fa fa-phone"
             onClick={callWithVideo(false)}
           />
+            <br>
+           <form action="#" method="post">
+	          <p>Name: <input type="email" name="mail"></p>
+	          <p><input type="submit" value="submit"></p>
+            </form>
+          
         </div>
       </div>
     </div>
