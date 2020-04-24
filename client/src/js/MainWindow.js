@@ -46,6 +46,8 @@ function MainWindow({ startCall, clientId }) {
             className="btn-action fa fa-phone"
             onClick={callWithVideo(false)}
           />
+              <br>
+              <form> <input type="button" value="Click me" onclick="alert('You clicked the button!')"> </form>
         </div>
       </div>
     </div>
